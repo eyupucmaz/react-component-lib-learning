@@ -1,6 +1,6 @@
 {
-  "name": "learn-1",
-  "version": "0.0.1",
+  "name": "@eyupucmaz/react-component-lib-learning",
+  "version": "0.0.2",
   "description": "React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "rollup": "^3.2.3",
     "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.8.4"
   },
@@ -24,5 +25,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/eyupucmaz"
+  }
 }
