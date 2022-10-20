@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "moduleFileExtensions": ["js", "ts", "tsx"],
+  "modulePathIgnorePatterns": ["node_modules", ".cache", "dist"],
+  "moduleNameMapper": {
+    "\\.(css|less|scss)$": "identity-obj-proxy"
+  },
+  "testEnvironment": "jsdom"
+}
