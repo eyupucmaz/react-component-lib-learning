@@ -5,5 +5,8 @@
 - React
 - Rollup
 - Typescript
+- Jest & @testing-lib/react
+- Babel
+- Storybook
 - npm (for publishing)
   
